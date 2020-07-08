@@ -13,5 +13,4 @@ def clean_pl_ml(text):
         if char not in punctuations:
             lp_data = lp_data+char
     lowercase_data = lp_data.replace("\n", " ")
-    new_f.write(lowercase_data)
     return (cleaned, lowercase_data)
